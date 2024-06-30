@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "fastapi-worker"
+version = "0.1.0"
+description = "Worker processing events via REST API"
+authors = ["zezaeoh <zezaeoh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+pydantic-settings = "^2.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

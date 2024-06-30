@@ -1,0 +1,7 @@
+#! /bin/bash
+
+if [[ "$APP_ENV" = "dev" ]]; then
+  exec fastapi dev main.py
+else
+  exec fastapi run main.py --port "${APP_PORT}"
+fi
