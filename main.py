@@ -100,4 +100,4 @@ async def list_events(ongoing_only: bool = False) -> list[Event]:
 
 @app.get("/heartbeat")
 async def heartbeat():
-    return {"message": "doki doki"}
+    return {"message": "doki doki v2"}
